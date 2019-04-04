@@ -19,10 +19,12 @@ html {
   --hover-violet: #ae2968;
   --li-font-color: #a8b3c2;
 }
+
 body {
   display: flex;
   flex-direction: column;
 }
+
 header {
   /*width: 1440px;*/
   height: 100%;
