@@ -1,16 +1,14 @@
-# Project Name
+# Candy`s landung
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://jukachu.github.io/candys_landing2/src/index.html)
 
 ### Description
 
-Tell about your project
+Homework #2 "Candy`s"
 
 ### Technologies are used
 
 - HTML
 - CSS
-- ...
-"# candys_landing" 
-"# candys_landing" 
-"# candys_landing2" 
+- Magic
+ 

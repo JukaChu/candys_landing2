@@ -161,7 +161,8 @@ h1 {
   background: var(--error-background);
   color: var(--error-border);
 }
-.input-email:focus:invalid + .button-submit{
+
+.input-email:focus:invalid + .button-submit {
   border: 2px solid var(--error-border);
   color: var(--error-border);
 }
@@ -238,12 +239,14 @@ h1 {
   padding-left: 0;
   margin-top: 12px;
 }
+
 .java-hesh,
 .java-title,
-.description-java{
+.description-java {
   width: 430px;
   padding-left: 20px;
 }
+
 .java-hesh {
   display: flex;
   text-transform: uppercase;
@@ -264,7 +267,8 @@ h1 {
   font-size: 18px;
   color: var(--font-color);
   margin: 0;
-  margin-top: -10px;
+  margin-top: -5px;
+  letter-spacing: 0.05em;
 }
 
 .description-java {
@@ -298,6 +302,10 @@ h1 {
   border: 2px solid var(--green-border);
 }
 
+.button-link:hover {
+  background: var(--hover-background);
+}
+
 .all-candy {
   background: var(--violet-color);
   border-radius: 22px;
@@ -322,6 +330,7 @@ footer {
   background-color: var(--font-color);
   /*display: flex;*/
 }
+
 .footer {
   display: flex;
   flex-direction: column;
@@ -341,50 +350,71 @@ footer {
   /*flex-basis: 100%;*/
   width: 100%;
 }
+
 .copyright {
   display: flex;
   height: 30px;
   width: 500px;
-  background-color: yellow;
+  /*background-color: yellow;*/
   align-items: center;
   margin-right: 160px;
 }
-.footer-copy{
-  font-family: 'Roboto', sans-serif;
+
+.footer-copy {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
   color: var(--p-color);
   font-size: 11px;
 }
+
 .left-lists {
-  display:flex;
+  display: flex;
   flex-basis: 780px;
   height: 288px;
   /*background-color: #6bca3e;*/
   justify-content: space-evenly;
 }
+
 .stats {
   margin-top: 4px;
   list-style: none;
   /*line-height: 28px;*/
-  font-family: 'Gilroy-bold', sans-serif;
+  font-family: "Gilroy-bold", sans-serif;
   font-size: 14px;
   color: white;
 }
+
 .stats li {
   margin-top: 15px;
 }
+
 .a-stats {
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--li-font-color);
   font-size: 12px;
   box-sizing: border-box;
   margin-top: 3px;
-  padding-top:10px;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
+
 .right-info {
   display: flex;
-  background-color: red;
+  /*background-color: red;*/
   flex-basis: 660px;
   height: 288px;
+  justify-content: space-evenly;
+}
+
+.footer-green {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: var(--green-border);
+  font-size: 12px;
+  box-sizing: border-box;
+  /*margin-top: 40px;*/
+  line-height: 10px;
+  /*padding-top: 10px;*/
+  /*padding-bottom: 10px;*/
 }
