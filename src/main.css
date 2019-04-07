@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   box-sizing: border-box;
   height: 100%;
 }
@@ -26,11 +26,12 @@ body {
 }
 
 header {
-  /*width: 1440px;*/
-  height: 100%;
+  max-width: 1440px;
+  /*height: 100%;*/
   min-height: 798px;
   /*display: flex;*/
   /*position: inherit;*/
+  flex-grow: 1;
 }
 
 @font-face {
@@ -65,28 +66,22 @@ h1 {
 }
 
 .container {
-  margin: 0 auto;
   display: flex;
-  height: 798px;
-  /*min-height: 798px;*/
-  flex-direction: row;
   justify-content: space-between; /*x -os*/
   align-items: flex-start; /*y - os*/
-  flex: 0 0 1440px;
-  flex-wrap: nowrap;
-  /*flex-wrap: nowrap; !*perenos*!*/
-  /*align-content: center;*/
-  /*background-color: yellow;*/
+  max-width: 1440px;
+  flex-shrink: 1;
+  overflow: hidden;
 }
 
 .header-1-container {
   margin: 0;
   display: flex;
-  flex: 0 0 470px;
+  flex-basis: 470px;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 10.7%;
-  margin-top: 11%;
+  padding-left: 10.7%;
+  padding-top: 11%;
 }
 
 .logo-flex {
@@ -103,7 +98,7 @@ h1 {
   margin-top: 12px;
   margin-bottom: 30px;
   flex-direction: column;
-  width: 437px;
+  max-width: 470px;
   line-height: 24px;
 }
 
@@ -139,11 +134,11 @@ h1 {
   border-radius: 30px;
   height: 60px;
   width: 100%;
-  border: none;
   box-sizing: border-box;
   padding-left: 30px;
   cursor: pointer;
   outline: none;
+  border: 2px solid transparent;
 }
 
 .input-email::placeholder {
@@ -203,9 +198,8 @@ h1 {
   display: flex;
   flex-direction: column;
   flex-basis: 470px;
-  margin-top: 7.4%;
-  margin-right: 12.6%;
-  padding-right: 20px;
+  padding-top: 7.4%;
+  padding-right: 13%;
 }
 
 .list {
@@ -224,6 +218,7 @@ h1 {
   display: flex;
   align-content: flex-end;
   justify-content: center;
+  border: 2px solid transparent;
 }
 
 .a-list:hover {
@@ -249,7 +244,7 @@ h1 {
 .java-hesh,
 .java-title,
 .description-java {
-  width: 430px;
+  max-width: 430px;
   padding-left: 20px;
 }
 
