@@ -18,6 +18,8 @@ html {
   --violet-color: #902156;
   --hover-violet: #ae2968;
   --li-font-color: #a8b3c2;
+  --roboto-font: "Roboto", sans-serif;
+  --gilroy-bold-font: "Gilroy-bold", sans-serif;
 }
 
 body {
@@ -48,7 +50,7 @@ header {
 }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--roboto-font);
   color: var(--p-color);
   line-height: 24px;
   font-size: 16px;
@@ -56,7 +58,7 @@ p {
 
 h1 {
   font-size: 48px;
-  font-family: "Gilroy-bold", sans-serif;
+  font-family: var(--gilroy-bold-font);
   color: var(--font-color);
   margin: 0;
 }
@@ -114,7 +116,7 @@ h1 {
 }
 
 .mail-form label {
-  font-family: "Gilroy-bold", serif;
+  font-family: var(--gilroy-bold-font);
   font-size: 18px;
   color: var(--font-color);
   font-weight: 900;
@@ -246,7 +248,7 @@ h1 {
 .java-hesh {
   display: flex;
   text-transform: uppercase;
-  font-family: "Gilroy-bold", serif;
+  font-family: var(--gilroy-bold-font);
   font-size: 10px;
   letter-spacing: 0.1em;
   color: var(--violet-color);
@@ -259,7 +261,7 @@ h1 {
 }
 
 .java-title {
-  font-family: "Gilroy-bold", sans-serif;
+  font-family: var(--gilroy-bold-font);
   font-size: 18px;
   color: var(--font-color);
   margin: 0;
@@ -269,7 +271,7 @@ h1 {
 
 .description-java {
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--roboto-font);
   font-size: 14px;
   line-height: 21px;
   color: var(--p-color);
@@ -283,7 +285,7 @@ h1 {
   background: white;
   border: 2px solid var(--hover-background);
   border-radius: 22px;
-  font-family: "Gilroy-bold", sans-serif;
+  font-family: var(--gilroy-bold-font);
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -312,7 +314,7 @@ h1 {
   border: none;
   outline: none;
   color: white;
-  font-family: "Gilroy-bold", sans-serif;
+  font-family: var(--gilroy-bold-font);
   margin-top: 24px;
   cursor: pointer;
 }
@@ -355,7 +357,7 @@ footer {
 
 .footer-copy {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--roboto-font);
   color: var(--p-color);
   font-size: 11px;
 }
@@ -370,7 +372,7 @@ footer {
 .stats {
   margin-top: 4px;
   list-style: none;
-  font-family: "Gilroy-bold", sans-serif;
+  font-family: var(--roboto-font);
   font-size: 14px;
   color: white;
 }
@@ -381,7 +383,7 @@ footer {
 
 .a-stats {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--roboto-font);
   color: var(--li-font-color);
   font-size: 12px;
   box-sizing: border-box;
@@ -400,7 +402,7 @@ footer {
 
 .footer-green {
   text-decoration: none;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--roboto-font);
   color: var(--green-border);
   font-size: 12px;
   box-sizing: border-box;
