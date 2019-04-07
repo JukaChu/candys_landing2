@@ -94,8 +94,8 @@ h1 {
   margin-top: 12px;
   margin-bottom: 30px;
   flex-direction: column;
-  max-width: 470px;
   line-height: 24px;
+  max-width: 437px;
 }
 
 .hr {
@@ -322,7 +322,7 @@ h1 {
 }
 
 footer {
-  height: 607px;
+  padding: 270px 0 0 20px;
   background-color: var(--font-color);
 }
 
@@ -363,7 +363,6 @@ footer {
 .left-lists {
   display: flex;
   flex-basis: 780px;
-  height: 288px;
   justify-content: space-evenly;
   margin-left: 20px;
 }
@@ -394,7 +393,6 @@ footer {
 .right-info {
   display: flex;
   flex-basis: 660px;
-  height: 288px;
   justify-content: space-evenly;
   margin-right: 155px;
 }
